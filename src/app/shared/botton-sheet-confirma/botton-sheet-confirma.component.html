@@ -1,0 +1,16 @@
+
+<div class="row">
+    <div class="col ">
+        <h3 class="text-center">Deseja mesmo excluir o registro?</h3>
+    </div>
+</div>
+<mat-nav-list>
+    <div class="row">
+        <div class="col">
+            <button type="button" class="btn-block" mat-flat-button (click)="confirmar($event, false)" color="accent"> Não </button>
+        </div>
+        <div class="col">
+            <button type="button" class="btn-block" mat-flat-button (click)="confirmar($event, true)" color="primary"> Sim </button>
+        </div>
+    </div>
+</mat-nav-list>

@@ -1,0 +1,33 @@
+<div class="row justify-content-center mb-5">
+    <div class="col-xl-10 col-md-8">
+        <div class="row justify-content-center">
+            <div class="col-4 ml-5 mr-5 mt-5 tamanho-melhor" *ngFor="let feature of features" [ngStyle]="{background: 'url(./assets/' + feature.background + ')', width: '442px', height: '358px'}">
+                <div class="row margem-imagem">
+                    <div class="col">
+                        <img [src]="feature.imagem" class="img-fluid">
+                    </div>
+                    <div class="col mr-4">
+                        <div class="row">
+                            <div class="col">
+                                <h2>{{feature.titulo}}</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>{{feature.descricao}}</p>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-5">
+                                <p class="align-middle"><strong>Learn more</strong></p>
+                            </div>
+                            <div class="col-5">
+                                <mat-icon color="primary">east</mat-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
