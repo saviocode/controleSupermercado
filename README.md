@@ -1,0 +1,2 @@
+# controleSupermercado
+Gerenciador de supermercados
