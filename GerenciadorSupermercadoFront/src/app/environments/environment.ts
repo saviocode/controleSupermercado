@@ -1,0 +1,1 @@
+export const API_SUPERMERCADO = "http://localhost:8080/"

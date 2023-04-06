@@ -1,4 +1,4 @@
-import { SupermecadoModel } from './../../model/supermercado.model';
+import { SupermecadoModel } from '../../models/supermercado.model';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
